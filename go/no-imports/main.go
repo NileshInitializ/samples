@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 )
-
+//golang
 const INDEX = `<!DOCTYPE html>
 <html>
   <head>
