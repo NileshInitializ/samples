@@ -23,6 +23,6 @@ func main() {
 	router.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
 		fmt.Fprintln(w, INDEX)
 	})
-
+//MainGo
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
